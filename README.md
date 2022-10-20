@@ -1,2 +1,4 @@
 # Connect4Game
-Created with CodeSandbox
+
+- Human vs AI Game  
+- Built in React
