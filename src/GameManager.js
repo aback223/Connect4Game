@@ -148,12 +148,7 @@ export default function GameManager() {
   }
 
   function makeMove() {
-    // prevent user from clicking if its not your turn
-    // if (move = legalMoves().find( cell => legalMoves().includes(checkMoves())) {
-    //   return move;
-    // }
     let move = legalMoves()[Math.floor(Math.random() * legalMoves().length)];
-
     play(move);
   }
 
